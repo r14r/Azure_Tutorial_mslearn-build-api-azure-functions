@@ -16,5 +16,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/DeleteProduct/index.js"
+  "scriptFile": "../dist/create/index.js"
 }
