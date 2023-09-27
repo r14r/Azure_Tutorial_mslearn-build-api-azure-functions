@@ -6,7 +6,6 @@ const CONNECTION_STRING = process.env.CONNECTION_STRING;
 const productService = {
   init() {
     try {
-      console.log('CONNECTION_STRING=', CONNECTION_STRING);
       this.client = new CosmosClient(CONNECTION_STRING);
       this.database = this.client.database("tailwind");
       this.container = this.database.container("products");
